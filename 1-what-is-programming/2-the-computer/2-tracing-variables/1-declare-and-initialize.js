@@ -14,7 +14,6 @@
 
 /* --- declaring --- */
 
-// declare onlyDeclared using let
 let onlyDeclared;
 
 // when a variable is not initialized
@@ -30,4 +29,4 @@ onlyDeclared;
 let declaredAndInitialized = 'hello';
 
 // read declaredAndInitialized: "hello"
-declaredAndInitialized;
+console.log(declaredAndInitialized);

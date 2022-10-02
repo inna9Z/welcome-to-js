@@ -22,8 +22,3 @@ greeting = greeting + '!';
 console.log(greeting === 'hello angus croll!');
 
 // begin distractors
-
-let greeting = 'hello' + first + last; // distractor
-greeting === greeting + '!'; // distractor
-let first = angus; // distractor
-let last = croll; // distractor

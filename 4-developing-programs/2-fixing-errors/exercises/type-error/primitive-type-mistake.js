@@ -19,4 +19,4 @@
 
 const userInput = null;
 
-console.log(userInput.length);
+console.log(userInput);

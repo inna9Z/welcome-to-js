@@ -18,8 +18,3 @@ let full = first + ' ' + last;
 console.log(full);
 
 // --- distractors ---
-
-Let first = 'Padma'; // distractor
-last = 'Patil'; // distractor
-let = last 'Patil'; // distractor
-let full first + ' ' + last; // distractor

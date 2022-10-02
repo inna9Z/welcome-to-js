@@ -1,26 +1,20 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: Browse Chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Invalid or unexpected token
 
-  location:
+  location: line 23, comoumn 16
 
-  life cycle:
+  life cycle: creation phase
 
-  the mistake:
+  the mistake: was string syntaxError
 
-  the fix(es):
+  the fix(es): remove line break
 */
 
-const a = 'this is
-two lines';
-
-
+const a = 'this is two lines';

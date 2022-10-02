@@ -16,7 +16,7 @@
 */
 
 // trace the program a few times with different values
-
+```
 let first = 'Pieter';
 // let first = 'Blake';
 // let first = 'George';
@@ -30,3 +30,17 @@ let fullName = first + ' ' + last;
 let greeting = 'hello ' + fullName;
 
 greeting = 'good bye ' + fullName;
+
+console.log(greeeting);
+
+```;
+
+// My solution
+
+let firstName = 'Blake';
+let lastName = 'Wozzeck';
+
+let fullName = firstName + ' ' + lastName;
+let greetting = 'hello ' + fullName;
+greeting = 'good bye ' + fullName;
+console.log(greeting);

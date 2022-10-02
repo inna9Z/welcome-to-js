@@ -16,17 +16,17 @@
 
 // declare name using let
 // initialize to "Gödel"
-let name = 'Gödel';
+//let name = 'Gödel';
 
 /*
   the initialized value is now stored in this variable:
 */
 
 // read name: "Gödel"
-name;
+//name;
 
 // assign name: "Hofstadter"
-name = 'Hofstadter';
+//name = 'Hofstadter';
 
 /*
   a variable's value can change during a program
@@ -34,14 +34,18 @@ name = 'Hofstadter';
 */
 
 // read name: "Hofstadter"
-name;
+//name;
 
 // assign name: "Schoenberg"
-name = 'Schoenberg';
+//name = 'Schoenberg';
 
 /*
   a variable's final value is the last value assigned to it in the program
 */
 
 // read name: "Schoenberg"
-name;
+//name;
+// My solution
+let name = 'Anna';
+name = 'Petrova';
+console.log(name);

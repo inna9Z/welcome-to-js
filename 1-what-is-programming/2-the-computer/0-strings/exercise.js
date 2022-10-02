@@ -11,19 +11,22 @@
 
 // --- hello ---
 
-// write a string that says 'hello'
-console.log(); // 'hello'
+let greeting = 'hello';
+console.log(greeting); // 'hello'
 
-// concatenate 2 strings to create 'hello'
-console.log(); // 'hello'
+let greeting1 = 'hello';
+console.log(greeting1); // 'hello'
 
-// concatenate 3 strings to create 'hello'
-console.log(); // 'hello'
+// eslint-disable-next-line no-useless-concat
+let greeting2 = 'hello';
+console.log(greeting2); // 'hello'
 
 // --- length ---
 
 // write a string with 5 characters and log it's length
-console.log(); // 5
+let fruit = 'banan';
+console.log(fruit.length); // 5
 
 // write a different string with 5 characters and log it's length
-console.log(); // 5
+let animal = 'whale';
+console.log(animal.length); // 5

@@ -19,3 +19,11 @@ name = 'Amela';
 
 greeting = 'good bye ' + name;
 console.log(greeting); // "good bye Amela"
+
+let firstName = 'Pieter';
+let allName = 'Amela ' + firstName;
+console.log(allName);
+
+firstName = 'Daniel';
+allName = 'Markovsky ' + firstName;
+console.log(allName);

@@ -12,9 +12,17 @@
 
 let turtle = 'Vinnie';
 turtle = 'Yurtle';
+console.log(turtle);
+
+let number = 3;
+number = 5;
+console.log(number);
 
 let food = 'lettuce';
 food = 'peanut';
+console.log(food);
 
 let x = 'abc';
+
 x = '-|-';
+console.log(x);

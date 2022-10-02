@@ -7,7 +7,8 @@
     "Precourse",
     "distractor",
     "distractors",
-    "typeof"
+    "typeof",
+    "import"
   ],
   "ignorePaths": ["node_modules/**", "**/*.json", "**/*.mp4", "**/*.svg"]
 }

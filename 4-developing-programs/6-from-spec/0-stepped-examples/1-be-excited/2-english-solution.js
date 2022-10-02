@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* Be Excited
 
@@ -16,7 +16,12 @@
 /* --- get a string from the user --- */
 //  Data In:      a string or null
 //  Data After:   the first string the user inputs
-
+let input = null;
+while (input === null) {
+  input = prompt('enter text');
+  console.log(input);
+}
+console.log(input);
 /*
   a while loop that exits when the user inputs a string
 */
@@ -28,10 +33,11 @@
 /*
   add an exclamation mark to the end of the user's input
 */
-
+let output = input + '!';
 /* --- display the string to the user --- */
 //  Data Out:  an excited string
 
 /*
   display the new string to the user
 */
+alert(output);

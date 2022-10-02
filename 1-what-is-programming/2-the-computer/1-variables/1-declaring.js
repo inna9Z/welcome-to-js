@@ -14,8 +14,11 @@
 
 */
 
-let turtle;
+let turtle = 2;
+console.log(turtle);
 
-let food;
+let food = 'apple';
+console.log(food);
 
-let x;
+let x = 3;
+console.log(x);

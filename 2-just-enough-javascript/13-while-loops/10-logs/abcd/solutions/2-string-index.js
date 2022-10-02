@@ -3,4 +3,7 @@
 let letters = 'abcd';
 
 let index = 0;
-while (__ < __.__) {}
+while (index < letters.length) {
+  index = prompt('a, b, c, d');
+  console.log(index);
+}

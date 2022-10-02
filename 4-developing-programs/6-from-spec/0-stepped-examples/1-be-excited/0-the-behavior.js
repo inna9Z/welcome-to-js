@@ -12,3 +12,14 @@
     'JS'    -> 'JS!'
     'hello' -> 'hello!'
 */
+let input = null;
+while (input === null) {
+  input = prompt('enter anything');
+  console.log(input);
+}
+console.log(input);
+
+let ouput = '';
+output = input + '!';
+
+alert(ouput);

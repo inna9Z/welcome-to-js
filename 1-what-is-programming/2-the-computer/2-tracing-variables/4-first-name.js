@@ -17,10 +17,15 @@
 
 // trace the program a few times with different values
 
-let firstName = 'Pieter';
-// let firstName = 'Blake';
-// let firstName = 'George';
+// let firstName = 'Pieter';
+//let greeting = 'hello ' + firstName + '!';
+//greeting = 'good bye ' + firstName + '.';
 
+//My solution
+//let firstName = 'Blake';
+//let greeting = 'hello ' + firstName + '!';
+//console.log(greeting);
+
+let firstName = 'George';
 let greeting = 'hello ' + firstName + '!';
-
-greeting = 'good bye ' + firstName + '.';
+console.log(greeting);

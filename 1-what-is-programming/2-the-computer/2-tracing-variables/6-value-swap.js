@@ -22,5 +22,6 @@ let temp;
 temp = a;
 a = b;
 b = temp;
+console.log(a, b, temp);
 
 // is it possible two swap a and b without using temp?

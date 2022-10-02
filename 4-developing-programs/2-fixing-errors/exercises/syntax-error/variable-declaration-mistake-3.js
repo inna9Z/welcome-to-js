@@ -17,6 +17,4 @@
   the fix(es):
 */
 
-const = 'always be learning';
-
-
+const a = 'always be learning';

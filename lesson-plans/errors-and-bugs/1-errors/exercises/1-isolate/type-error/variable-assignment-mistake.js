@@ -6,16 +6,16 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: Browse Chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Invalid left-hand side in assignment
 
-  location:
+  location: line 25
 
-  life cycle:
+  life cycle: in execution phase
 
-  the mistake:
+  the mistake: 
 
   the fix(es):
 */

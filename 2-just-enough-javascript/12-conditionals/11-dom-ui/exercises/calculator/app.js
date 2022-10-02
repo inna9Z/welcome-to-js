@@ -5,13 +5,13 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('___', () => {
+whenFormDataChanges('id="secret-solution", function (n,t)', () => {
   // debugger;
   console.log('--- form data changed ---');
 
   // --- read the user's input ---
-  let left = readNumber('__');
-  let right = readNumber('__');
+  let left = readNumber('number');
+  let right = readNumber('number');
 
   let operator = readString('__');
 

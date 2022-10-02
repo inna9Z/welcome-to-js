@@ -1,10 +1,10 @@
 'use strict';
 
-__;
+let a = 'word';
 console.log(a);
 
 {
-  __;
+  a = a;
   console.log(a);
 }
 

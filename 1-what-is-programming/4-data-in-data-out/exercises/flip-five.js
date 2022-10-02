@@ -1,14 +1,16 @@
 'use strict';
 
 /* Flip Five
+this program check that the user input is 5 characters long
 
-  Data In:
+Data In:
+any text
 
+Data Out:
+check that the user input is 5 characters long
 
-  Data Out:
-
-
-  Test Cases:
+Test Cases:
+'' -> ''
 
 
 */

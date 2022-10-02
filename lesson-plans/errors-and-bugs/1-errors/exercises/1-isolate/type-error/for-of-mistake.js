@@ -3,22 +3,20 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: Browse Chrome
 
-  name:
-  message:
+  name:TypeError
+  message:maxNumber is not iterable
 
-  location:
+  location: line 22 , coloumn 17
 
-  life cycle:
+  life cycle: execution phase
 
-  the mistake:
+  the mistake: we're trying to interat something that is not interable
 
-  the fix(es):
+  the fix(es): Assing a string/ array ti input
 */
 
 const maxNumber = 6;
 
-for (const i of maxNumber) {
-  console.log(i); // 0, 1, 2, 3, 4, 5
-}
+console.log(maxNumber); // 0, 1, 2, 3, 4, 5

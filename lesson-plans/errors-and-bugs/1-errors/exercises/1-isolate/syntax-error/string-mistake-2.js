@@ -1,25 +1,20 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: Browse Chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Unexpected string
 
-  location:
+  location: line 23, coloumn 44
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: we  can't use single quotes more than one time in the same line
 
-  the fix(es):
+  the fix(es): remove the single quotes and add double quotes
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
-
-
+const quotesInQuotes = 'remind yourself "i can do this!" at least once a day';

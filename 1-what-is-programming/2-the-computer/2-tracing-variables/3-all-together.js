@@ -55,4 +55,4 @@ pattern = '@' + pattern;
 pattern = pattern + pattern;
 
 // read pattern: "@.@@.@"
-pattern;
+console.log(pattern);

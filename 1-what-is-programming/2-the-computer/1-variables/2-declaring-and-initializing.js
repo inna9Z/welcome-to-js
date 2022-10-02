@@ -16,6 +16,18 @@
 
 let turtle = 'Vinnie';
 
+console.log(turtle);
+
+let number = 4;
+
+console.log(number);
+
 let food = 'lettuce';
+console.log(food);
 
 let x = 'abc';
+console.log(x);
+
+let y = 'xy';
+
+console.log(y);

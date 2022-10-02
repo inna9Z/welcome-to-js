@@ -20,7 +20,7 @@
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
-if (userName.length > 3) {
+if (userName.length === 3) {
   isValidUserName = true;
 }
 
